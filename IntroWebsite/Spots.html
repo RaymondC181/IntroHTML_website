@@ -4,13 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spots</title>
 </head>
+<style>
+     .tweet{
+        width:400px;
+            background-color: beige;
+            padding:25px;
+            font-weight: normal; 
+          }
+    .img{
+        width: 150px;
+            height: 150px;
+            float:left; 
+            margin: right 10px;
+            border-radius: 25%;
+    }
+    table, th, td {
+            border: 1px solid black;
+         }
+</style>
 <body>
+    <div class="tweet">
+    <!--
+        Here is a comment!!!!
+    -->
+    <h1>Links</h1>
     <a href="index.html"> Index</a>
     <br>
     <a href="Skills.html"> Skills</a>
     <br>
     <a href="Favorites.html"> Favorites</a>
+    <h2>NYC Spots</h2>
+    <p>These are what I think to be the best and worst part of NYC</p>
+    <img src="nyc.jpg" alt="nyc" />
+    <img src="train.jpg" alt="train" />
+    <table>
+        <tr>
+           <th>Favorite</th>
+           <th>Worst</th>
+        </tr>
+        <tr>
+           <td>Sunset Park</td>
+           <td>Subways</td>
+        </tr>
+        <tr>
+           <td>Chinatown</td>
+           <td>High traffic areas</td>
+        </tr>
+     </table>
+     <p>I live pretty close to the park which is nice to go during summer</p>
+     <a href="https://www.nycgovparks.org/parks/sunset-park">Sunset Park</a>
+     <p>I dont like the subway though</p>
+     <h3>Audio of train</h3>
+
+     <audio controls>
+        <source src="trainsound.mp3" type="audio/ogg">
+        <source src="trainsound.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </div>
+
+     <footer>&#169;</footer>
 </body>
 </html>
